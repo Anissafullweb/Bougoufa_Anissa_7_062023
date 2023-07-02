@@ -1,0 +1,55 @@
+.collapse_title {
+  background-color: #ff6060;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.arrow {
+  height: 14px;
+  width: 23px;
+  align-self: center;
+}
+
+.collapse_content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.arrow_down {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow_up {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.collapse_content_hidden {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ff6060;
+  background-color: #f7f7f7;
+  padding-top: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  line-height: 142.6%;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 730px) {
+  .collapse_title {
+    font-size: 13px;
+  }
+}

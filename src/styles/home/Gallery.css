@@ -1,0 +1,24 @@
+.home_gallery {
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 15px 30px 15px 30px;
+  margin-right: min(100px);
+  margin-left: min(100px);
+  margin-right: max(10%);
+  margin-left: max(10%);
+  padding-top: 56px;
+}
+
+@media only screen and (max-width: 730px) {
+  .home_gallery {
+    margin: 10px 20px 30px 20px;
+    background-color: white;
+    padding: 0;
+    gap: 0px;
+  }
+}

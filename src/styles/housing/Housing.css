@@ -1,0 +1,165 @@
+.housing {
+  margin-right: min(100px);
+  margin-left: min(100px);
+  margin-right: max(10%);
+  margin-left: max(10%);
+}
+
+.housing_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.housing_info {
+  color: #ff6060;
+  margin-top: 0;
+}
+
+.housing_info button {
+  background-color: #ff6060;
+  border-radius: 10px;
+  line-height: 146.2%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  padding: 4px 25px 4px 25px;
+  font-size: 14px;
+}
+
+.housing_host_name {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.host_stars {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2px;
+}
+
+.host_picture {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  margin-bottom: 25px;
+}
+
+.host_name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff6060;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-top: 5px;
+  align-items: flex-end;
+}
+
+.host_stars img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.housing_host {
+  padding-top: 24px;
+}
+
+.housing_collapse {
+  display: flex;
+  gap: 76px;
+  margin-bottom: 20px;
+}
+
+.collapse_item {
+  width: 50%;
+}
+
+.housing_info p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.housing_info h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.collapse_item p {
+  margin: 0;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 730px) {
+  .housing {
+    margin: 0 20px 20px 20px;
+  }
+
+  .housing_info h1 {
+    font-size: 18px;
+  }
+
+  .collapse_item p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .housing_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .housing_host {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .host_stars img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .host_stars {
+    align-self: center;
+  }
+
+  .host_picture {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 0;
+  }
+
+  .host_name {
+    font-size: 12px;
+  }
+
+  .housing_collapse {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .collapse_item {
+    width: 100%;
+  }
+
+  .housing_collapse .collapse_content_hidden {
+    box-sizing: content-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .housing_info button {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+}

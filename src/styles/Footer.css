@@ -1,0 +1,25 @@
+.footer {
+  height: 163px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_copyright {
+  color: white;
+  margin-bottom: -40px;
+  font-size: 20px;
+}
+
+.footer img {
+  height: 30px;
+  width: 90px;
+}
+
+@media only screen and (max-width: 730px) {
+  .footer_copyright {
+    font-size: 12px;
+  }
+}
