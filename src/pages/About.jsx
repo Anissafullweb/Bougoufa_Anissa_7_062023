@@ -1,7 +1,7 @@
-import Header from '../components/header/Header'
+
 import AboutBanner from '../../src/components/banners/AboutBanner'
 import Collapse from '../components/outils/Collapse'
-import Footer from '../components/Footer'
+
 import '../styles/about/About.css'
 
 import image from '../../src/assets/about_cover.png'
@@ -36,7 +36,7 @@ function About() {
 
   return (
     <div>
-      <Header />
+
       <main className="main_about">
         <AboutBanner image={image} />
         {aboutDatas.map((data) => {
@@ -51,7 +51,7 @@ function About() {
           )
         })}
       </main>
-      <Footer />
+
     </div>
   )
 }

@@ -4,8 +4,7 @@ import data from '../data/data.json'
 // Composants
 import Carousel from '../components/outils/Carousel'
 import Collapse from '../components/outils/Collapse'
-import Footer from '../components/Footer'
-import Header from '../components/header/Header'
+
 // Images
 import greyStar from '../assets/grey_star.png'
 import redStar from '../assets/red_star.png'
@@ -43,7 +42,7 @@ function Housing() {
 
   return (
     <>
-      <Header />
+
       <main className="housing">
         <Carousel slides={housingPictures} />
         <section className="housing_content">
@@ -80,7 +79,7 @@ function Housing() {
           </div>
         </section>
       </main>
-      <Footer />
+
     </>
   )
 }

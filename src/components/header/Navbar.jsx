@@ -10,12 +10,12 @@ function Navbar() {
       <ul className="nav_list">
         <li
           className={
-            location.pathname === '/kasa'
+            location.pathname === '/'
               ? 'nav_list_item nav_list_active'
               : 'nav_list_item'
           }
         >
-          <Link to="/kasa" className="nav_link">
+          <Link to="/" className="nav_link">
             Accueil
           </Link>
         </li>

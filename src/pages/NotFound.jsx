@@ -1,11 +1,11 @@
-import Header from '../components/header/Header'
+
 import { Link } from 'react-router-dom'
 import '../styles/NotFound.css'
 
 function NotFound() {
   return (
     <div>
-      <Header />
+
       <div className="notFound">
         <div className="notFound_txt">
           <h1 className="notFound_title">404</h1>
